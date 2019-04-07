@@ -65,17 +65,19 @@ FILLME WITH THE TITLE OF YOUR PROPOSAL
 About You
 =========
 
- * Name: FILLME
+ * Name: Tejasvi S Tomar
 
- * E-mail address: FILLME
+ * E-mail address: tstomar@outlook.com
 
- * IRC nickname(s): FILLME
+ * IRC nickname(s): tstomar
 
- * Any personal websites, blogs, social media, etc: FILLME
+ * Any personal websites, blogs, social media, etc: http://tejasvi.github.io (stem blog)
 
- * github URL: FILLME
+ * github URL: http://github.com/tejasvi
 
- * Biography:
+ * Biography: I am enthusiastic about technology and its impact on people lives.
+  Currently I'm persuing bioengineering as an undergrad. The field of computational biology, genomics, and neuroscience interest me the most. I've been fascinated with computers and biology since I was a kid. And ever since wanted to work in this interdisciplinary field. Of late, I'm also intrigued with AI, augmented reality and philosophy behind them. I'm look forward to play a role in making of the exciting future ahead.
+  When I'm off screen, I swim, dive or play water polo. I'm an avid book reader and occasionally write. If there's is time at hand I engage in philosophy too.  
 
 .. Tell us a bit about yourself.
 
@@ -94,70 +96,84 @@ Background Information
 similar programmes before?  If so, tell us about how it went, and any areas you
 would have liked more help with.**
 
-FILLME
+I wish I were aware of GCI earlier. However this is my first chance to apply for GSoC.
 
 **Please tell us about any previous experience you have with Xapian, or other
 systems for indexed text search.**
 
-FILLME
+Nothing major projects I worked on before involved search systems. Though I have abstract idea of workings of search engine which is more concrete now after working with Xapian.
 
 **Tell us about any previous experience with Free Software and Open Source
 other than Xapian.**
 
-FILLME
+I came accross linux as my 8 years old PC became sluggish. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far.
 
 **What other relevant prior experience do you have (courses taken at college,
 hobbies, holiday jobs, etc)?**
 
-FILLME
+In college I had
 
 **What development platforms, tools and methods do you prefer to use?**
 
-FILLME
+Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools maybe out of curiosity or if the situation demands.
 
 **Have you previously worked on a project of a similar scope?  If so, tell us
 about it.**
 
-FILLME
+Though none matching same scope, I have completed a moderately sized project of balancing a ball on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and desired coordinates of the ball.
 
 **What timezone will you be in during the coding period?**
 
-FILLME
+UTC +5.5
 
 **Will your Summer of Code project be the main focus of your time during the
 program?**
 
-FILLME
+Yeah, it will be for sure.
 
 **Expected work hours (e.g. Monday–Friday 9am–5pm UTC)**
 
-FILLME
+I will spend at least six hours a day. Also I would prefer to spread out my work equally over week days. It translates to at least 42 hours of work for a week. Besides, I'll have extra 3-4 hours to commit during summer break or on holidays. 
 
-**Are you applying for other projects in GSoC 2018?  If so, with which
+**Are you applying for other projects in GSoC 2019?  If so, with which
 organisation(s)?**
+
+
 
 .. We understand students sometimes want to apply to more than one org and
 .. we don't have a problem with that, but it's helpful if we're aware of it
 .. so that we know how many backup choices we might need.
 
-FILLME
+Since I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
-Your Project
+Integrating wordnet for improved relevance
 ============
 
-Motivations
+A main problem with the current search engines is the large volume of documents extracted as a result of broad, general queries, and the lack of output produced to specfic, narrow questions. Current method for matching terms directly with document index not takes the sense diversity of words into account. WordNet is a lexical database which provides additional depth to analyse relevance of documents while improving the detection of query intent.
 -----------
 
 **Why have you chosen this particular project?**
 
-FILLME
+For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon exting ones. 
 
 **Who will benefit from your project and in what ways?**
 
+Out of seven billion people only five percent of them speak english natively. Moreover there are only one billion total english speakers while more than 50 percent web content is in english language. This creates a language barrier for rest six billions to access majority of information as their vocabulary is not evolved enough to frame their query efectively. 
+
+WordNet integration will facilitate such people by adding more flexibility to interpretation of certain queries in particular. 
+
+Besides above, the most benefitted usecases:
+
+* Search pool containing highly heterogenous information or,
+* The user is not well familier with the resource jargon
+
+This project will work to quantify intent of queries and judge relevance of a document by improving upon existing term match methedology using WordNet semantics data.
+
+
+Source: https://en.wikipedia.org/wiki/Global_Internet_usage
 .. For example, think about the likely user-base, what they currently have to
 .. do and how your project will improve things for them.
 
-FILLME
 
 Project Details
 ---------------
@@ -247,7 +263,7 @@ Previous Discussion of your Project
 .. IRC, please say so (and the IRC handle you used if not the one given
 .. above).
 
-FILLME
+I've discussed it exclusively on IRC.
 
 Licensing of your contributions to Xapian
 -----------------------------------------
@@ -259,7 +275,7 @@ For the avoidance of doubt this includes all contributions to our wiki, mailing
 lists and documentation, including anything you write in your project's wiki
 pages.
 
-FILLME
+Yes, I'm glad to do so.
 
 .. For more details, including the rationale for this with respect to code,
 .. please see the "Licensing of patches" section in the "HACKING" document:
