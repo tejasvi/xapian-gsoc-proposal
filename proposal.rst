@@ -153,7 +153,7 @@ Since here I found skillset required to be most holistic, I would prefer to work
 Integrating WordNet into Xapian
 ============
 
-WordNet is a lexical database which provides additional depth to analyse relevance of documents while improving the detection of query intent.
+WordNet is a lexical database which will provide additional insight to analyse relevance of documents while improving the detection of query intent.
 -----------
 
 **Why have you chosen this particular project?**
