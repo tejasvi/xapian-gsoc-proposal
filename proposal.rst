@@ -71,7 +71,7 @@ About You
 
  * IRC nickname(s): tstomar
 
- * Any personal websites, blogs, social media, etc: http://tejasvi.github.io (stem blog)
+ * Any personal websites, blogs, social media, etc: http://t.me/tstomar (telegram) http://tejasvi.github.io (stem blog)
 
  * github URL: http://github.com/tejasvi
 
@@ -108,7 +108,7 @@ Nothing major projects I worked on before involved search systems. Though I had 
 **Tell us about any previous experience with Free Software and Open Source
 other than Xapian.**
 
-I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to to get deep into it.
+I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to be the part of the community.
 
 **What other relevant prior experience do you have (courses taken at college,
 hobbies, holiday jobs, etc)?**
@@ -122,7 +122,7 @@ Currently I use vscode as the editor. On the OS side I've tried plethora of conf
 **Have you previously worked on a project of a similar scope?  If so, tell us
 about it.**
 
-Though none matching same scope, I have completed a moderately sized robotics project. The objective was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
+Though none matching same scope, I have completed a moderately sized robotics project. The goal was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing was derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
 
 Project repo: https://github.com/tejasvi/ballet-of-bots 
 
