@@ -67,7 +67,7 @@ About You
 
  * Name: Tejasvi S Tomar
 
- * E-mail address: tstomar@outlook.com
+ * E-mail address: tstomar[at]outlook.com
 
  * IRC nickname(s): tstomar
 
@@ -76,12 +76,12 @@ About You
  * github URL: http://github.com/tejasvi
 
  * Biography: I am enthusiastic about technology and its impact on people lives.
-  Currently I'm persuing bioengineering as an undergrad. The field of computational biology, genomics, and neuroscience interest me the most. I've been fascinated with computers and biology since I was a kid. And ever since wanted to work in this interdisciplinary field. Of late, I'm also intrigued with AI, augmented reality and philosophy behind them. I'm look forward to play a role in making of the exciting future ahead.
-  When I'm off screen, I swim, dive or play water polo. I'm an avid book reader and occasionally write. If there's is time at hand I engage in philosophy too.  
+   Currently I'm persuing bioengineering as an undergrad. The field of computational biology, genomics, and neuroscience interest me the most. I've been fascinated with computers and biology since I was a kid. And ever since wanted to work in this interdisciplinary field. Of late, I'm also intrigued with AI, augmented reality and philosophy behind them. I'm look forward to play a role in making of the exciting future ahead.
+   
+   When I'm off screen, I swim, dive and play water polo. I'm an avid book reader and occasionally write. If there's is time at hand I engage in philosophy too.  
 
 .. Tell us a bit about yourself.
 
-FILLME
 
 Background Information
 ----------------------
@@ -106,21 +106,23 @@ Nothing major projects I worked on before involved search systems. Though I have
 **Tell us about any previous experience with Free Software and Open Source
 other than Xapian.**
 
-I came accross linux as my 8 years old PC became sluggish. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far.
+I came accross linux as my eight years old PC performed sluggish. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to learn more.
 
 **What other relevant prior experience do you have (courses taken at college,
 hobbies, holiday jobs, etc)?**
 
-In college I had
+
 
 **What development platforms, tools and methods do you prefer to use?**
 
-Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools maybe out of curiosity or if the situation demands.
+Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools if the situation demands.
 
 **Have you previously worked on a project of a similar scope?  If so, tell us
 about it.**
 
-Though none matching same scope, I have completed a moderately sized project of balancing a ball on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and desired coordinates of the ball.
+Though none matching same scope, I have completed a moderately sized robotics project. The objective was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
+
+Project repo: https://github.com/tejasvi/ballet-of-bots 
 
 **What timezone will you be in during the coding period?**
 
@@ -144,7 +146,7 @@ organisation(s)?**
 .. we don't have a problem with that, but it's helpful if we're aware of it
 .. so that we know how many backup choices we might need.
 
-Since I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
+Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
 Integrating wordnet for improved relevance
 ============
@@ -154,11 +156,11 @@ A main problem with the current search engines is the large volume of documents 
 
 **Why have you chosen this particular project?**
 
-For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon exting ones. 
+For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon existing ones. 
 
 **Who will benefit from your project and in what ways?**
 
-Out of seven billion people only five percent of them speak english natively. Moreover there are only one billion total english speakers while more than 50 percent web content is in english language. This creates a language barrier for rest six billions to access majority of information as their vocabulary is not evolved enough to frame their query efectively. 
+Out of seven billion people only five percent of them speak english natively. Moreover, there are only one billion total english speakers while more than 50 percent web content is in english language. This creates a language barrier for rest six billions to access majority of information as their vocabulary is not evolved enough to frame their query efffectively. 
 
 WordNet integration will facilitate such people by adding more flexibility to interpretation of certain queries in particular. 
 
@@ -167,7 +169,7 @@ Besides above, the most benefitted usecases:
 * Search pool containing highly heterogenous information or,
 * The user is not well familier with the resource jargon
 
-This project will work to quantify intent of queries and judge relevance of a document by improving upon existing term match methedology using WordNet semantics data.
+These constitute majority of the userbase. This project will work to quantify intent of queries and judge relevance of a document by improving upon existing term match methodology using WordNet semantics data.
 
 
 Source: https://en.wikipedia.org/wiki/Global_Internet_usage
