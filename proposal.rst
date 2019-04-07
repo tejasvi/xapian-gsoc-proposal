@@ -78,7 +78,7 @@ About You
  * Biography: I am enthusiastic about technology and its impact on people lives.
    Currently I'm persuing bioengineering as an undergrad. The field of computational biology, genomics, and neuroscience interest me the most. I've been fascinated with computers and biology since I was a kid. And ever since wanted to work in this interdisciplinary field. Of late, I'm also intrigued with AI, augmented reality and philosophy behind them. I'm look forward to play a role in making of the exciting future ahead.
    
-   When I'm off screen, I swim, dive and play water polo. I'm an avid book reader and occasionally write. If there's is time at hand I engage in philosophy too.  
+   When I'm off screen, I swim, dive and play water polo. I'm an avid book reader and occasionally write. And if there is time at hand I engage in philosophy too.  
 
 .. Tell us a bit about yourself.
 
