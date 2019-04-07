@@ -101,12 +101,12 @@ I wish I were aware of GCI earlier. However this is my first chance to apply for
 **Please tell us about any previous experience you have with Xapian, or other
 systems for indexed text search.**
 
-Nothing major projects I worked on before involved search systems. Though I have abstract idea of workings of search engine which is more concrete now after working with Xapian.
+Nothing major projects I worked on before involved search systems. Though I had abstract idea of workings of search engine which is more concrete now after working with Xapian.
 
 **Tell us about any previous experience with Free Software and Open Source
 other than Xapian.**
 
-I came accross linux as my eight years old PC performed sluggish. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to learn more.
+I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to to get deep into it.
 
 **What other relevant prior experience do you have (courses taken at college,
 hobbies, holiday jobs, etc)?**
