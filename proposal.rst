@@ -59,7 +59,7 @@
 .. http://teom.wordpress.com/2012/03/01/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/
 
 ======================================
-FILLME WITH THE TITLE OF YOUR PROPOSAL
+Integrating WordNet into Xapian
 ======================================
 
 About You
@@ -150,15 +150,15 @@ organisation(s)?**
 
 Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
-Integrating wordnet for improved relevance
+Integrating WordNet into Xapian
 ============
 
-A main problem with the current search engines is the large volume of documents extracted as a result of broad, general queries, and the lack of output produced to specfic, narrow questions. Current method for matching terms directly with document index not takes the sense diversity of words into account. WordNet is a lexical database which provides additional depth to analyse relevance of documents while improving the detection of query intent.
+WordNet is a lexical database which provides additional depth to analyse relevance of documents while improving the detection of query intent.
 -----------
 
 **Why have you chosen this particular project?**
 
-For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon existing ones. 
+For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon existing ones. A main problem with the current search engines is the large volume of documents extracted as a result of broad, general queries, and the lack of output produced to specfic, narrow questions. Current method for matching terms directly with document index not takes the sense diversity of words into account. I am improving Xapian in this area.
 
 **Who will benefit from your project and in what ways?**
 
