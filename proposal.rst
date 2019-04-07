@@ -206,7 +206,7 @@ FILLME
 **How useful will your results be when not everything works out exactly as
 planned?**
 
-FILLME
+Since the project is divided into individual modules *everything* not working out well would only mean WordNet integration to smaller extent than planned. In that case other than already incorporated benefits, we will have outline to integrate WordNet in different areas of Xapian further. 
 
 Project Timeline
 ----------------
