@@ -71,7 +71,7 @@ About You
 
  * IRC nickname(s): tstomar
 
- * Any personal websites, blogs, social media, etc: * http://t.me/tstomar (telegram)                                                       * http://tejasvi.github.io (stem blog)
+ * Any personal websites, blogs, social media, etc: http://t.me/tstomar (telegram) http://tejasvi.github.io (stem blog)
 
  * github URL: http://github.com/tejasvi
 
@@ -114,29 +114,28 @@ would have liked more help with.**
 
 **What development platforms, tools and methods do you prefer to use?**
 
-Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools if the situation demands.
+  Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools if the situation demands.
 
 **Have you previously worked on a project of a similar scope?  If so, tell us about it.**
 
-Though none matching same scope, I have completed a moderately sized robotics project. The goal was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing was derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
+  Though none matching same scope, I have completed a moderately sized robotics project. The goal was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing was derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
 
-Project repo: https://github.com/tejasvi/ballet-of-bots 
+  Project repo: https://github.com/tejasvi/ballet-of-bots 
 
 **What timezone will you be in during the coding period?**
 
-UTC +5.5
+  UTC +5.5
 
 **Will your Summer of Code project be the main focus of your time during the
 program?**
 
-Yeah, it will be for sure.
+  Yeah, it will be for sure.
 
 **Expected work hours (e.g. Monday–Friday 9am–5pm UTC)**
 
-I will spend at least six hours a day. Also I would prefer to spread out my work equally over week days. It translates to at least 42 hours of work for a week. Besides, I'll have extra 3-4 hours to commit during summer break or on holidays. 
+  I will spend at least six hours a day. Also I would prefer to spread out my work equally over week days. It translates to at least 42 hours of work for a week. Besides, I'll have extra 3-4 hours to commit during summer break or on holidays. 
 
-**Are you applying for other projects in GSoC 2019?  If so, with which
-organisation(s)?**
+**Are you applying for other projects in GSoC 2019?  If so, with which organisation(s)?**
 
 
 
@@ -144,33 +143,33 @@ organisation(s)?**
 .. we don't have a problem with that, but it's helpful if we're aware of it
 .. so that we know how many backup choices we might need.
 
-Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
+  Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
 Integrating WordNet into Xapian
 ============
 
-WordNet is a lexical database which will provide additional insight to analyse relevance of documents while improving the detection of query intent.
+WordNet, a lexical database will provide additional insight to analyse relevance of documents while improving the detection of query intent.
 -----------
 
 **Why have you chosen this particular project?**
 
-For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon existing ones. A main problem with the current search engines is the large volume of documents extracted as a result of broad, general queries, and the lack of output produced to specfic, narrow questions. Current method for matching terms directly with document index not takes the sense diversity of words into account. I am improving Xapian in this area.
+  For one, this project involves application of the academic research, something I relish. Besides, integration of WordNet in Xapian has potential to extend it beyond conventional use cases and improve upon existing ones. A main problem with the current search engines is the large volume of documents extracted as a result of broad, general queries, and the lack of output produced to specfic, narrow questions. Current method for matching terms directly with document index not takes the sense diversity of words into account. I am improving Xapian in this area.
 
 **Who will benefit from your project and in what ways?**
 
-Out of seven billion people only five percent of them speak english natively. Moreover, there are only one billion total english speakers while more than 50 percent web content is in english language. This creates a language barrier for rest six billions to access majority of information as their vocabulary is not evolved enough to frame their query efffectively. 
+  Out of seven billion people only five percent of them speak english natively. Moreover, there are only one billion total english speakers while more than 50 percent web content is in english language. This creates a language barrier for rest six billions to access majority of information as their vocabulary is not evolved enough to frame their query efffectively. 
 
-WordNet integration will facilitate such people by adding more flexibility to interpretation of certain queries in particular. 
+  WordNet integration will facilitate such people by adding more flexibility to interpretation of certain queries in particular. 
 
-Besides above, the most benefitted usecases:
+  Besides above, the most benefitted usecases:
 
-* Search pool containing highly heterogenous information or,
-* The user is not well familier with the resource jargon
+  * Search pool containing highly heterogenous information or,
+  * The user is not well familier with the resource jargon
 
-These constitute majority of the userbase. This project will work to quantify intent of queries and judge relevance of a document by improving upon existing term match methodology using WordNet semantics data.
+  These constitute majority of the userbase. This project will work to quantify intent of queries and judge relevance of a document by improving upon existing term match methodology using WordNet semantics data.
 
 
-Source: https://en.wikipedia.org/wiki/Global_Internet_usage
+  Source: https://en.wikipedia.org/wiki/Global_Internet_usage
 .. For example, think about the likely user-base, what they currently have to
 .. do and how your project will improve things for them.
 
@@ -182,16 +181,19 @@ Project Details
 
 **Describe any existing work and concepts on which your project is based.**
 
-Plenty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts to start the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas.
+  Plenty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts possible to add the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas to start with.
 
-The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project, the  base class demands high extensibility. Therefore multiple integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
+  The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project, the  base class demands high extensibility. Therefore future integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
 
 
 **Do you have any preliminary findings or results which suggest that your approach is possible and likely to succeed?**
 
-`Using WordNet and Lexical Operators to Improve Internet Searches (paywall)<https://dl.acm.org/citation.cfm?id=613476>`_
-`Query expansion via wordnet for effective code search <https://ieeexplore.ieee.org/iel7/7066219/7081802/07081874.pdf>`_
-`The informative role of WordNet in open-domain question answering <https://dingo.sbs.arizona.edu/~sandiway/csc620/eggers.pdf>`_
+  The advantages of incorporating lexical information are evident from the fact that currently most web search engines uses some form of natural language processing. As the searchable data increases, topics become more important than keywords. Context aware searches require lexicon to *tokenize** topics. A 2012 research demonstrated the advantages of contextual searches both quantitatively and qualitatively over keyword based.
+    `Children's web search with Google: the effectiveness of natural language queries <https://dl.acm.org/citation.cfm?id=2307121>`_
+  Additionaly abundant research has been done to exploit the WordNet data to improve *recall* and *precision* concurrently though they affect each other inversly in general. Following are few representative papers attesting to it. 
+    `Using WordNet and Lexical Operators to Improve Internet Searches (paywall)<https://dl.acm.org/citation.cfm?id=613476>`_
+    `Query expansion via wordnet for effective code search <https://ieeexplore.ieee.org/iel7/7066219/7081802/07081874.pdf>`_
+    `The informative role of WordNet in open-domain question answering <https://dingo.sbs.arizona.edu/~sandiway/csc620/eggers.pdf>`_
 
 **What other approaches to have your considered, and why did you reject those in favour of your chosen approach?**
 
