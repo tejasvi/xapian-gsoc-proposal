@@ -148,7 +148,7 @@ program?**
 Integrating WordNet into Xapian
 ============
 
-WordNet, a lexical database will provide additional insight to analyse relevance of documents while improving the detection of query intent.
+WordNet, a lexical database being used to provide ontological input to analyse relevance of documents while improving the detection of query intent.
 -----------
 
 **Why have you chosen this particular project?**
