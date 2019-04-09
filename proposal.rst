@@ -185,13 +185,23 @@ Project Details
 
   Plenty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts possible to add the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas to start with.
 
-  The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project, the  base class demands high extensibility. Therefore future integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
+  The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project timeline, the  base class demands high extensibility. Therefore future integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
+
+  *Deliverables:*
+  1. A framework to interface WordNet with Xapian
+  2. Built-in *synoynmns* dictionary as a result
+  3. Revamped query expansion using WordNet specific algorithms
+  4. Enabling incremental search using query expansion and NLP techniques
+
+  *Strech goals:*
+  * Enhancing query expansion by displaying alternative intents
+  * Incorporating WordNet into LETOR and weighting schemes
 
 
 **Do you have any preliminary findings or results which suggest that your approach is possible and likely to succeed?**
 
   The advantages of incorporating lexical information are evident from the fact that currently most web search engines uses some form of natural language processing. As the searchable data increases, topics become more important than keywords. Context aware searches require lexicon to *tokenize** topics. A 2012 research demonstrated the advantages of contextual searches both quantitatively and qualitatively over keyword based.
-  
+
     `Children's web search with Google: the effectiveness of natural language queries <https://dl.acm.org/citation.cfm?id=2307121>`_
   Additionaly abundant research has been done to exploit the WordNet data to improve *recall* and *precision* concurrently though they affect each other inversly in general. Following are few representative papers attesting to it. 
 
@@ -204,19 +214,22 @@ Project Details
 
 **What other approaches to have your considered, and why did you reject those in favour of your chosen approach?**
 
-FILLME
+  Limitation which is being addressed is the lack of intent detection for queries which are imprecise or have multiple interpretations. One of the approach could be the use of neural networks to build user intent model. However conventional uses of Xapian will present problem of cold start or can't aggregate query data quickly enough for a funtional model.
 
 **Please note any uncertainties or aspects which depend on further research or investigation.**
 
-FILLME
+  There are no apparant prospects of significant decrease in search efficiency in terms of speed, considering research papers, when lexical databases are employed. However it will still be something to warrrant caution while implementing related features. Moreover the algorithms which look good on paper could involve skewed sample for testing. Besides they may not perform well in Xapian specific environment. Such setbacks certainly have possibility to digress the planned project outline.
 
 **How useful will your results be when not everything works out exactly as planned?**
 
-Since the project is divided into individual modules *everything* not working out well would only mean WordNet integration to smaller extent than planned. In that case other than already incorporated benefits, we will have outline to integrate WordNet in different areas of Xapian further. 
+Since the project is divided into individual modules *everything* not working out well would only lead change in feature priorities. Moreover in an implausible scenario, WordNet integration will be done in smaller extent than initially planned. In that case other than already incorporated benefits, we will have WordNet interface as a firm bedrock to build upon. 
 
 Project Timeline
 ----------------
-
+  **Preceeding May 27**
+    * Improving grasp of Xabian codebase pertaining to project goal
+    * Start prototyping classes to implement
+    * 
 .. We want you to think about the order you will work on your project, and
 .. how long you think each part will take.  The parts should be AT MOST a
 .. week long, or else you won't be able to realistically judge how long
@@ -268,12 +281,12 @@ FILLME
 Previous Discussion of your Project
 -----------------------------------
 
+  I've discussed it exclusively on IRC.
 .. If you have discussed your project on our mailing lists please provide a
 .. link to the discussion in the list archives.  If you've discussed it on
 .. IRC, please say so (and the IRC handle you used if not the one given
 .. above).
 
-I've discussed it exclusively on IRC.
 
 Licensing of your contributions to Xapian
 -----------------------------------------
@@ -294,10 +307,11 @@ Yes, I'm glad to do so.
 Use of Existing Code
 --------------------
 
-**If you already know about existing code you plan to incorporate or libraries
-you plan to use, please give details.**
+**If you already know about existing code you plan to incorporate or libraries you plan to use, please give details.**
 
-FILLME
+  * `WordNet  <https://wordnet.princeton.edu/`_
+  * `Freeling  <nlp.lsi.upc.edu/freeling/index.php/node/1`_
+  * `wordnet-blast  <https://github.com/jardon-u/wordnet-blast`_
 
 .. Code reuse is often a desirable thing, but we need to have a clear
 .. provenance for the code in our repository, and to ensure any dependencies
