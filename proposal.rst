@@ -187,6 +187,8 @@ Project Details
 
   The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project timeline, the  base class demands high extensibility. Therefore future integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
 
+  Custom index will be used to fetch lexical data. It is done to minimize overhead due to the information not required by features. Database formats currently planned to support for indexing are WordNet, Open Multilingual Wordnet (tab seperated), and Lexical Markup Framework. 
+
   *Deliverables:*
   1. A framework to interface WordNet with Xapian
   2. Built-in *synoynmns* dictionary as a result
@@ -216,6 +218,7 @@ Project Details
 
   Limitation which is being addressed is the lack of intent detection for queries which are imprecise or have multiple interpretations. One of the approach could be the use of neural networks to build user intent model. However conventional uses of Xapian will present problem of cold start or can't aggregate query data quickly enough for a funtional model.
 
+  For accessing lexical data direct api calls to WordNet or equivalent can also be made. However they are likely to cause overhead compared to self-desigened index which can be optimised for the implemented features.
 **Please note any uncertainties or aspects which depend on further research or investigation.**
 
   There are no apparant prospects of significant decrease in search efficiency in terms of speed, considering research papers, when lexical databases are employed. However it will still be something to warrrant caution while implementing related features. Moreover the algorithms which look good on paper could involve skewed sample for testing. Besides they may not perform well in Xapian specific environment. Such setbacks certainly have possibility to digress the planned project outline.
@@ -227,9 +230,43 @@ Since the project is divided into individual modules *everything* not working ou
 Project Timeline
 ----------------
   **Preceeding May 27**
-    * Improving grasp of Xabian codebase pertaining to project goal
-    * Start prototyping classes to implement
-    * 
+    * Enhancing grasp of Xabian codebase pertaining to the project goal
+    * Start prototyping classes (and discussing) to implement later 
+    * Keep researching for better algorithms for feature implementations
+    * Understand basic ML concepts for possible LETOR integration
+    * Wrapped up in month of April for exams
+  
+  *The summer of code starts*!
+
+  **Week 1: June 3**
+    * Implement base class WordNet 
+    * Implement WnIndexer to create custom index from various inputs
+      Intially index format will be basic to be augmented later as required.
+    
+  **Week 2: June 10**
+    * Test WnIndexer (and WordNet) extensively
+    * Implement GetSets to get *synonymns* from desired synsets which could also          contain additional information obtained after further processing. E.g. relation     of synsets across query terms
+  **Week 3: June 17**
+    * After implementation of basic functionality of GetSets like returning unproccessed synsets, implement more complex standard operations on synsets.
+    * Test GetSets and WnIndex individually then in synergy
+  **Week 4: June 24**
+    * Create WQueryParser for a seperate parser for wordnet
+    * Implement basic functionality deriving from QueryParser
+    * Test it individually then with previous implementations
+
+  *Phase 1 evaluation*
+
+  **Week 5: Jul 1**
+    * Start implementing few WordNet specific operations in WQueryParser like injecting   expanded terms corresponding to sentence structure
+    * Test the implementation with previous work
+  **Week 6: Jul 8**
+    * Implement query expansion algorithm in WQueryParser
+    * Test it against representative data
+    * Repeat above steps until results are satisfactory
+  **Week 7: Jul 15**
+    * Test the whole implementation together
+    * Add support for built-in synonymns support by linking WordNet index to              QueryParser. Also test it.
+  **
 .. We want you to think about the order you will work on your project, and
 .. how long you think each part will take.  The parts should be AT MOST a
 .. week long, or else you won't be able to realistically judge how long
