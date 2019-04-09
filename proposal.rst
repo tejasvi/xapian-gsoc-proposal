@@ -244,15 +244,15 @@ Project Timeline
       Intially index format will be basic to be augmented later as required.
     
   **Week 2: June 10**
-    * Test WnIndexer (and WordNet) extensively
+    * Test WnIndexer (and WordNet) extensively and document
     * Implement GetSets to get *synonymns* from desired synsets which could also          contain additional information obtained after further processing. E.g. relation     of synsets across query terms
   **Week 3: June 17**
     * After implementation of basic functionality of GetSets like returning unproccessed synsets, implement more complex standard operations on synsets.
-    * Test GetSets and WnIndex individually then in synergy
+    * Test GetSets and WnIndex individually then in synergy. Document the implementation.
   **Week 4: June 24**
     * Create WQueryParser for a seperate parser for wordnet
     * Implement basic functionality deriving from QueryParser
-    * Test it individually then with previous implementations
+    * Test it individually then with previous implementations.
 
   *Phase 1 evaluation*
 
@@ -262,11 +262,31 @@ Project Timeline
   **Week 6: Jul 8**
     * Implement query expansion algorithm in WQueryParser
     * Test it against representative data
-    * Repeat above steps until results are satisfactory
+    * Repeat above steps until results are satisfactory. 
   **Week 7: Jul 15**
     * Test the whole implementation together
     * Add support for built-in synonymns support by linking WordNet index to              QueryParser. Also test it.
-  **
+  **Week 8: Jul 22**
+    * Integrate WQueryParser with QueryParser
+    * Test the implementation as this will mark first successful WordNet integration into Xapian. Document WQueryParser.
+  *Phase 2 evaluation*
+  **Week 9: Jul 29**
+    * Create IncSearch class for incremental search implementation
+    * Implement basic operations such as additional string output.
+  **Week 10: Aug 5**
+    * Test the class against the build.
+    * Start implementing advanced standard operations required for algorithm.
+  **Week 11: Aug 12**
+    * Test the implementation again.
+    * Implement incremental search algorithm and test it against sample input
+  **Week 12: Aug 19**
+    * Do complete rigorous testing of all features added.
+    * Buffer zone for documentation and pending work
+  **Week 13: Aug 26**
+    * Buffer period for merging
+    * Fix bugs if any
+    * Start stretch goals
+  *Phase 3 Evaluation*
 .. We want you to think about the order you will work on your project, and
 .. how long you think each part will take.  The parts should be AT MOST a
 .. week long, or else you won't be able to realistically judge how long
@@ -313,7 +333,6 @@ Project Timeline
 .. any university classes or exams, vacations, etc), make sure you include them
 .. in your project timeline.
 
-FILLME
 
 Previous Discussion of your Project
 -----------------------------------
