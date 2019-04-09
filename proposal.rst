@@ -191,15 +191,16 @@ Project Details
 **Do you have any preliminary findings or results which suggest that your approach is possible and likely to succeed?**
 
   The advantages of incorporating lexical information are evident from the fact that currently most web search engines uses some form of natural language processing. As the searchable data increases, topics become more important than keywords. Context aware searches require lexicon to *tokenize** topics. A 2012 research demonstrated the advantages of contextual searches both quantitatively and qualitatively over keyword based.
+  
     `Children's web search with Google: the effectiveness of natural language queries <https://dl.acm.org/citation.cfm?id=2307121>`_
   Additionaly abundant research has been done to exploit the WordNet data to improve *recall* and *precision* concurrently though they affect each other inversly in general. Following are few representative papers attesting to it. 
 
-    `Using WordNet and Lexical Operators to Improve Internet Searches (paywall)<https://dl.acm.org/citation.cfm?id=613476>`_
+    `Using WordNet and Lexical Operators to Improve Internet Searches (paywall) <https://dl.acm.org/citation.cfm?id=613476>`_
 
     `Query expansion via wordnet for effective code search <https://ieeexplore.ieee.org/iel7/7066219/7081802/07081874.pdf>`_
 
     `The informative role of WordNet in open-domain question answering <https://dingo.sbs.arizona.edu/~sandiway/csc620/eggers.pdf>`_
-    
+
 
 **What other approaches to have your considered, and why did you reject those in favour of your chosen approach?**
 
