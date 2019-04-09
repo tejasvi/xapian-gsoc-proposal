@@ -110,7 +110,9 @@ would have liked more help with.**
 
 **What other relevant prior experience do you have (courses taken at college, hobbies, holiday jobs, etc)?**
 
-
+  Relevant courses taken in college are general Mathematics (calculus, probability, matrix algebra, real analysis,...) and computer science (data structure and algorithms, database management,...). Besides, I'm fairly skilled in navigating Internet an upshot of often breaking setup more than often. 
+  
+  Few vaguly relevant ones; I have learned web development a bit being part of the team for our college fest website. Besides I have worked with microcontrollers as part of robotics club. I also study mathematics specific to ML lately.
 
 **What development platforms, tools and methods do you prefer to use?**
 
@@ -137,13 +139,13 @@ program?**
 
 **Are you applying for other projects in GSoC 2019?  If so, with which organisation(s)?**
 
+  Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
 
 .. We understand students sometimes want to apply to more than one org and
 .. we don't have a problem with that, but it's helpful if we're aware of it
 .. so that we know how many backup choices we might need.
 
-  Since here I found skillset required to be most holistic, I would prefer to work exclusively with Xapian for now.
 
 Integrating WordNet into Xapian
 ============
