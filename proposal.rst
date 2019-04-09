@@ -100,18 +100,15 @@ would have liked more help with.**
 
 I wish I were aware of GCI earlier. However this is my first chance to apply for GSoC.
 
-**Please tell us about any previous experience you have with Xapian, or other
-systems for indexed text search.**
+**Please tell us about any previous experience you have with Xapian, or other systems for indexed text search.**
 
-Nothing major projects I worked on before involved search systems. Though I had abstract idea of workings of search engine which is more concrete now after working with Xapian.
+Nothing major projects I worked on before involved search systems. Though I had conceptual idea of workings of search engine which is more concrete now after getting involved with Xapian.
 
-**Tell us about any previous experience with Free Software and Open Source
-other than Xapian.**
+**Tell us about any previous experience with Free Software and Open Source other than Xapian.**
 
 I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to be the part of the community.
 
-**What other relevant prior experience do you have (courses taken at college,
-hobbies, holiday jobs, etc)?**
+**What other relevant prior experience do you have (courses taken at college, hobbies, holiday jobs, etc)?**
 
 
 
@@ -119,8 +116,7 @@ hobbies, holiday jobs, etc)?**
 
 Currently I use vscode as the editor. On the OS side I've tried plethora of configurations and found Ubuntu with KDE to suit me well. However I'm not reluctant to try out new tools if the situation demands.
 
-**Have you previously worked on a project of a similar scope?  If so, tell us
-about it.**
+**Have you previously worked on a project of a similar scope?  If so, tell us about it.**
 
 Though none matching same scope, I have completed a moderately sized robotics project. The goal was to balance balls on movable plate using microcontroller. The code involved was in C++ and algorithm for balancing was derived from a research article. The idea of implementation was to get coordinates of ball and predict the tilt of the plate based upon current, past, and target coordinates of the ball.
 
@@ -185,26 +181,26 @@ Project Details
 .. Please go into plenty of detail in this section.
 
 **Describe any existing work and concepts on which your project is based.**
+Pleanty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts to start the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas.
+
+The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project, the  base class demands high extensibility. Therefore multiple integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
+
+
+**Do you have any preliminary findings or results which suggest that your approach is possible and likely to succeed?**
+
+`Using WordNet and Lexical Operators to Improve Internet Searches (paywall)<https://dl.acm.org/citation.cfm?id=613476>`_
+`Query expansion via wordnet for effective code search <https://ieeexplore.ieee.org/iel7/7066219/7081802/07081874.pdf>`_
+`The informative role of WordNet in open-domain question answering <https://dingo.sbs.arizona.edu/~sandiway/csc620/eggers.pdf>`_
+
+**What other approaches to have your considered, and why did you reject those in favour of your chosen approach?**
 
 FILLME
 
-**Do you have any preliminary findings or results which suggest that your
-approach is possible and likely to succeed?**
+**Please note any uncertainties or aspects which depend on further research or investigation.**
 
 FILLME
 
-**What other approaches to have your considered, and why did you reject those in
-favour of your chosen approach?**
-
-FILLME
-
-**Please note any uncertainties or aspects which depend on further research or
-investigation.**
-
-FILLME
-
-**How useful will your results be when not everything works out exactly as
-planned?**
+**How useful will your results be when not everything works out exactly as planned?**
 
 Since the project is divided into individual modules *everything* not working out well would only mean WordNet integration to smaller extent than planned. In that case other than already incorporated benefits, we will have outline to integrate WordNet in different areas of Xapian further. 
 
