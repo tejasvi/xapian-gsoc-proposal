@@ -71,7 +71,7 @@ About You
 
  * IRC nickname(s): tstomar
 
- * Any personal websites, blogs, social media, etc: http://t.me/tstomar (telegram) http://tejasvi.github.io (stem blog)
+ * Any personal websites, blogs, social media, etc: * http://t.me/tstomar (telegram)                                                       * http://tejasvi.github.io (stem blog)
 
  * github URL: http://github.com/tejasvi
 
@@ -98,15 +98,15 @@ Background Information
 similar programmes before?  If so, tell us about how it went, and any areas you
 would have liked more help with.**
 
-I wish I were aware of GCI earlier. However this is my first chance to apply for GSoC.
+  I wish I were aware of GCI earlier. However this is my first chance to apply for GSoC.
 
 **Please tell us about any previous experience you have with Xapian, or other systems for indexed text search.**
 
-Nothing major projects I worked on before involved search systems. Though I had conceptual idea of workings of search engine which is more concrete now after getting involved with Xapian.
+  Nothing major projects I worked on before involved search systems. Though I had conceptual idea of workings of search engine which is more concrete now after getting involved with Xapian.
 
 **Tell us about any previous experience with Free Software and Open Source other than Xapian.**
 
-I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to be the part of the community.
+  I came accross linux as my eight years old PC started slowing down. Since then I have tried tens of distros and various utilities present within. Though my knowlege expanded more or less within the scope of general computing and only recently the scope has broadened to development. And I'm loving it so far and excited to be the part of the community.
 
 **What other relevant prior experience do you have (courses taken at college, hobbies, holiday jobs, etc)?**
 
@@ -181,7 +181,8 @@ Project Details
 .. Please go into plenty of detail in this section.
 
 **Describe any existing work and concepts on which your project is based.**
-Pleanty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts to start the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas.
+
+Plenty of papers have been published to demonstrate the potential of semantic databases to improve text based search considerably. WordNet is a well developed and widely used such lexicon which is to be integrated into Xapian. There are multiple fronts to start the integration. Currently, query expansion, incremental search, weighting scheme, and an inbuilt synonymn dictionary will be most rewarding areas.
 
 The project is sub-divided such that to ensure modularity at small levels. Broadly speaking, first goal will be to create a handy interface to WordNet. Since full integration will extend beyond the project, the  base class demands high extensibility. Therefore multiple integration prospects are considered while prototyping. After the interface is developed and tested, each incorporation opportunities can be targeted one by one.
 
